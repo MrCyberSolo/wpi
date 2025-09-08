@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Bulk SMS Fast",
+    "message": "🚀 Need to send bulk SMS fast?\n\nTry BlackSMS.in – no DLT, no delays!",
+    "buttons": [
+      {"type": "url", "displayText": "Try Now", "url": "https://blacksms.in/register?ref=AX958LUH"},
+      {"type": "reply", "displayText": "Tell Me More"}
+    ],
+    "footer": "Instant delivery, no DLT hassle."
+  },
+  {
+    "name": "Easy SMS Tool",
+    "message": "📲 Found a super simple SMS tool – BlackSMS.in\n\nNo DLT required, instant delivery!",
+    "buttons": [
+      {"type": "url", "displayText": "Start Free", "url": "https://blacksms.in/register?ref=AX958LUH"},
+      {"type": "reply", "displayText": "Need Help?"}
+    ],
+    "footer": "Fast, reliable & simple."
+  },
+  {
+    "name": "Business SMS Reliable",
+    "message": "💬 I’m using BlackSMS.in for business SMS.\n\nIt’s reliable, fast & needs no DLT.",
+    "buttons": [
+      {"type": "url", "displayText": "Sign Up", "url": "https://blacksms.in/register?ref=AX958LUH"},
+      {"type": "reply", "displayText": "Show Pricing"}
+    ],
+    "footer": "Trusted by startups & businesses."
+  },
+  {
+    "name": "Skip DLT Hassle",
+    "message": "🚫 Forget DLT hassles.\n\n📤 Send bulk SMS instantly with BlackSMS.in",
+    "buttons": [
+      {"type": "url", "displayText": "Get Started", "url": "https://blacksms.in/register?ref=AX958LUH"},
+      {"type": "reply", "displayText": "More Info"}
+    ],
+    "footer": "No DLT, no delay."
+  },
+  {
+    "name": "Promote Business",
+    "message": "📢 Promoting your business or event?\n\nBlackSMS.in makes SMS blasts easy.",
+    "buttons": [
+      {"type": "url", "displayText": "Promote Now", "url": "https://blacksms.in/register?ref=AX958LUH"},
+      {"type": "reply", "displayText": "Talk to Sales"}
+    ],
+    "footer": "Grow your reach instantly."
+  },
+  {
+    "name": "Campaign Tool",
+    "message": "📦 Running campaigns or client promos?\n\nBlackSMS.in makes SMS sending simple.",
+    "buttons": [
+      {"type": "url", "displayText": "Start Campaign", "url": "https://blacksms.in/register?ref=AX958LUH"},
+      {"type": "reply", "displayText": "I’m Interested"}
+    ],
+    "footer": "Smart solution for agencies."
+  },
+  {
+    "name": "Boost for Startups",
+    "message": "💼 Startup, shop, or side hustle?\n\nGrow faster with BlackSMS.in – no DLT needed.",
+    "buttons": [
+      {"type": "url", "displayText": "Boost Growth", "url": "https://blacksms.in/register?ref=AX958LUH"},
+      {"type": "reply", "displayText": "Contact Us"}
+    ],
+    "footer": "Perfect for small businesses."
+  },
+  {
+    "name": "SMS Marketing Tool",
+    "message": "🔧 Need a tool for SMS marketing?\n\nI recommend BlackSMS.in – quick & effective.",
+    "buttons": [
+      {"type": "url", "displayText": "Try Marketing Tool", "url": "https://blacksms.in/register?ref=AX958LUH"},
+      {"type": "reply", "displayText": "Know More"}
+    ],
+    "footer": "Your SMS marketing partner."
+  },
+  {
+    "name": "Bulk SMS Tip",
+    "message": "🧠 Quick tip:\n\nI use BlackSMS.in for bulk SMS.\n\nFast & DLT-free ✅",
+    "buttons": [
+      {"type": "url", "displayText": "Use BlackSMS", "url": "https://blacksms.in/register?ref=AX958LUH"},
+      {"type": "reply", "displayText": "Show Plans"}
+    ],
+    "footer": "DLT-free SMS solution."
+  },
+  {
+    "name": "Instant Reach",
+    "message": "🎯 Want to reach customers instantly?\n\nUse BlackSMS.in – no DLT, no delays.",
+    "buttons": [
+      {"type": "url", "displayText": "Reach Customers", "url": "https://blacksms.in/register?ref=AX958LUH"},
+      {"type": "reply", "displayText": "Tell Me More"}
+    ],
+    "footer": "Instant connection with customers."
+  }
+]
