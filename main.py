@@ -27,6 +27,31 @@ def load_numbers(file_path: str = "number.txt") -> list[str]:
         print(f"❌ Error: The file {file_path} was not found.")
         return []
 
+def move_number_to_sent(number: str, source_file: str = "number.txt", sent_file: str = "sent_numbers.txt"):
+    """Move a number from source file to sent file after successful send."""
+    try:
+        # Read all numbers from source file
+        with open(source_file, 'r', encoding='utf-8') as f:
+            numbers = [line.strip() for line in f if line.strip()]
+        
+        # Remove the sent number from the list
+        if number in numbers:
+            numbers.remove(number)
+        
+        # Write remaining numbers back to source file
+        with open(source_file, 'w', encoding='utf-8') as f:
+            for num in numbers:
+                f.write(num + '\n')
+        
+        # Append sent number to sent file
+        with open(sent_file, 'a', encoding='utf-8') as f:
+            f.write(number + '\n')
+        
+        print(f"📝 Moved {number} to {sent_file}")
+        
+    except Exception as e:
+        print(f"❌ Error moving number {number}: {e}")
+
 def main():
     """Main function to run the bulk messaging script."""
     print("🚀 Starting Bulk Promotional Messaging Script")
@@ -85,6 +110,9 @@ def main():
                 )
                 print(f"✅ Message sent successfully to {number}!")
                 print(f"   Response: {json.dumps(response, indent=2)}")
+                
+                # Move number to sent file after successful send
+                move_number_to_sent(number)
 
             except Exception as e:
                 print(f"❌ Failed to send message to {number}: {e}")
